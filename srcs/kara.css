@@ -1,0 +1,207 @@
+@import url('reset.css');
+
+/*Los estilos generales*/
+
+body{
+    background: #606060;
+    font-family:fantasy, inherit, sans-serif;
+        
+}
+
+#wrap{
+    width: 1200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: auto;
+    clear: both;
+    
+}
+
+/* Seccion general -----------------------------------------------------------*/
+
+a{   text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: Satan;
+    background: #00CCCC; /* Old browsers */
+    background: -moz-linear-gradient(top, #00CCCC 0%, #009999  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #00CCCC 0%,#009999 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00CCCC 0%,#009999  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00CCCC', endColorstr='#009999 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 3px 5px #808080;
+}
+
+#subheader{
+    width: 960px;
+    margin: auto;
+    
+}
+
+#logotipo{
+    
+    float: left;
+    width: 300px;
+    padding: 10px 0px;
+    
+}
+
+#logotipo a{
+    font-family:Satan;
+    font-size: 80px;
+    color: #000066;
+    
+}
+
+#logotipo a:hover{text-decoration: none;}
+
+
+/*--Menu--*/
+
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 30px 0px;
+    text-align: center;
+    
+}
+
+header #subheader nav ul li{
+    display: inline;/*elemtos mostrados en linea*/
+    font-family: Satan;
+     
+    
+}
+
+header #subheader nav ul li a {
+    color: #000066;
+    font-size:35px;
+    padding: 10px;
+    border-radius:2px;
+    
+}
+
+header #subheader nav ul li a:hover{
+    color:#006666;
+    background: #FF99CC;
+    text-decoration: none;
+}
+/*Pie de pagina GENERAL*/
+
+.pie{
+    padding: auto;
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: Satan;
+    background: #009999; /* Old browsers */
+    background: -moz-linear-gradient(top, #009999 0%, #006666  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #009999 0%,#006666  100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #009999 0%,#006666  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#006666 ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 5px 5px 5px 5px #808080;
+
+    font-family:fantasy, inherit, sans-serif;
+    margin-top: 20px;
+}
+
+.letra{
+    font-size: 14px;
+    padding-left: auto;
+
+}
+
+#redes-s{  
+    float: left;
+    width: 300px;
+    padding: 10px 10px;
+    
+}
+
+#derechos{
+    float: right;
+    width: 900px;
+    padding: 50px;
+    
+}
+
+.h3{
+    font-size: 18x;  
+}
+
+#profe{
+    float: left;
+    width: auto;
+    padding: 10px;
+    
+}
+
+.tit{
+    font-size: 50px;
+    color: aliceblue;
+    font-family:gooddog ;
+}
+.tit1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family:gooddog ;
+}
+.texto{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(172, 221, 207);
+}
+.texto1{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(233, 218, 160);
+}
+.texto2{
+    font-size: 20px;
+    font-family: Tomodachy;
+    color: rgb(72, 48, 97);
+}
+.thumb{ /*imagen formato*/
+    width: 220px; /*largo*/
+    height: 150px;/*ancho*/
+    float: left;/*elementos a la izquierda*/
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    border:  2px double aliceblue;
+    padding: 5px;
+
+    
+}
+.tabla1{
+    width: 100%;
+    background:linear-gradient(to top, #4f98c9 0%, rgb(25,78,125)100%);
+    border-radius: 15px;
+    align-content: center;
+    border: 15px dotted rgb(168, 216, 248);
+}
+.tabla2{
+    
+    background:linear-gradient(to top,rgb(255,20,50)0% ,#77323f 100% ) ;
+    border-radius: 15px;
+    align-content: center;
+    border-radius: 35px;
+    border: 15px double rgb(238, 104, 104);
+}
+.tabla3{
+    width: 100%;
+    background:linear-gradient(to bottom,#33a533 0%, rgb(192, 243, 104)) ;
+    border-radius: 15px;
+    align-content: space-around;
+    border: 12px dashed rgb(161, 240, 174);
+
+}
+
